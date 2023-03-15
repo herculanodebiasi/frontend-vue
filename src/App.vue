@@ -14,7 +14,7 @@
         <label>Nome</label> 
         <input :disabled=editavel type="text" placeholder="Nome" v-model="funcionario.nome">
 
-        <label>Quantidade</label>
+        <label># Dependentes</label>
         <input :disabled=editavel type="number" placeholder="# Dependentes" v-model="funcionario.numDep"> 
 
         <label>Salário</label>
@@ -35,7 +35,7 @@
             <th>ID</th> 
             <th>Nome</th> 
             <th># Dependentes</th>
-            <th>Salario</th> 
+            <th>Salário</th> 
             <th>Data de Nascimento</th> 
             <th>Ações</th>
           </tr>
